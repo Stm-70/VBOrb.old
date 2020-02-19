@@ -32,7 +32,7 @@ public interface TxtPreProPragma
 	public void closeIncludeFile();
 
 	/**
-	 *  @param	ttRd		Don´t read after end of file
+	 *  @param	ttRd		DonÂ´t read after end of file 
 	 *
 	 *  @exception	TxtReadException
 	 */
