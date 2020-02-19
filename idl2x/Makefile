@@ -19,7 +19,7 @@
 .java.class:
 	javac $*.java
 
-SHELL   = /usr/bin/ksh
+SHELL   = /usr/bin/bash
 
 # Tokenizer and Preprocessor
 UTIL_OBJS = mboth/util/TxtReader.class mboth/util/TxtFilePos.class \
