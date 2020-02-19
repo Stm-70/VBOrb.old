@@ -13,6 +13,8 @@ jobs:
       run: echo Hello, world!
     - name: Run a multi-line script
       run: |
+        cd idl2x
         ls -al
+        make
         echo Add other actions to build,
         echo test, and deploy your project.
