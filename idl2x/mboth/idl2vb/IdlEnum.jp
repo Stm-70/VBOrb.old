@@ -5,7 +5,7 @@
 	#include "../idl2lang/IdlEnum.jp"
 
 	/** (IdlDefinition)
-	 *  Set the Visual Basic Name
+	 *  Set the Visual Basic Name 
 	 *
 	 *	@param	sVbName		Can be "" if not IdlType
 	 *	@return		== null, It was not too late to set
