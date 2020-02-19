@@ -758,18 +758,18 @@ public class TxtPreProcessor implements TxtTokenReader
 	/**
 	 */
 	private final static int PRIOR_EX= 0;	// To execute all operators
-	private final static int PRIOR_CM= 1;	// ´,´ and ´?:´ operator
-	private final static int PRIOR_LOR=2;	// ´||´
-	private final static int PRIOR_LAND=3;	// ´&&´
-	private final static int PRIOR_OR=4;	// ´|´
-	private final static int PRIOR_XOR=5;	// ´^´
-	private final static int PRIOR_AND=6;	// ´&´
-	private final static int PRIOR_EQ=7;	// ´==´ and  ´!=´
-	private final static int PRIOR_CP=8;	// ´>´, ´<´, ´>=´, ´<=´
-	private final static int PRIOR_SHIFT=9;	// ´>>´ and ´<<´
-	private final static int PRIOR_AS=10;	// ´+´ and ´-´
-	private final static int PRIOR_MD=11;	// ´*´, ´/´, ´%´
-	private final static int PRIOR_UN=12;	// ´+´, ´-´, ´~´, ´!´, defined
+	private final static int PRIOR_CM= 1;	// Â´,Â´ and Â´?:Â´ operator
+	private final static int PRIOR_LOR=2;	// Â´||Â´
+	private final static int PRIOR_LAND=3;	// Â´&&Â´
+	private final static int PRIOR_OR=4;	// Â´|Â´
+	private final static int PRIOR_XOR=5;	// Â´^Â´
+	private final static int PRIOR_AND=6;	// Â´&Â´
+	private final static int PRIOR_EQ=7;	// Â´==Â´ and  Â´!=Â´
+	private final static int PRIOR_CP=8;	// Â´>Â´, Â´<Â´, Â´>=Â´, Â´<=Â´
+	private final static int PRIOR_SHIFT=9;	// Â´>>Â´ and Â´<<Â´
+	private final static int PRIOR_AS=10;	// Â´+Â´ and Â´-Â´
+	private final static int PRIOR_MD=11;	// Â´*Â´, Â´/Â´, Â´%Â´
+	private final static int PRIOR_UN=12;	// Â´+Â´, Â´-Â´, Â´~Â´, Â´!Â´, defined 
 	
 	/** Read an expression until finding an operator with less or equal
 	 *  priority of prevPrior or unexpected token
