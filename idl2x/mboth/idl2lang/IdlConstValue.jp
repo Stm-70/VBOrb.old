@@ -10,7 +10,7 @@
    but WITHOUT ANY WARRANTY; without even the implied warranty of
    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
    Library General Public License for more details.
-*/
+*/ 
 #if !defined JP_PACKAGE
 #define JP_PACKAGE mboth.idl2lang
 #define JP_HEAD
@@ -35,13 +35,13 @@ public class IdlConstValue
 	/**
 	 */
 	public final static int PRIOR_EX= 0;	// To execute all operators
-	private final static int PRIOR_OR=4;	// ´|´
-	private final static int PRIOR_XOR=5;	// ´^´
-	private final static int PRIOR_AND=6;	// ´&´
-	private final static int PRIOR_SHIFT=9;	// ´>>´ and ´<<´
-	private final static int PRIOR_AS=10;	// ´+´ and ´-´
-	private final static int PRIOR_MD=11;	// ´*´, ´/´, ´%´
-	private final static int PRIOR_UN=12;	// ´+´, ´-´, ´~´
+	private final static int PRIOR_OR=4;	// Â´|Â´
+	private final static int PRIOR_XOR=5;	// Â´^Â´
+	private final static int PRIOR_AND=6;	// Â´&Â´
+	private final static int PRIOR_SHIFT=9;	// Â´>>Â´ and Â´<<Â´
+	private final static int PRIOR_AS=10;	// Â´+Â´ and Â´-Â´
+	private final static int PRIOR_MD=11;	// Â´*Â´, Â´/Â´, Â´%Â´
+	private final static int PRIOR_UN=12;	// Â´+Â´, Â´-Â´, Â´~Â´
 	
 	/** Read an expression until finding an operator with less or equal
 	 *  priority of prevPrior or unexpected token. If there is no value token
@@ -50,7 +50,7 @@ public class IdlConstValue
 	 *	@param	subExRd		IdlConstSubExReader to read subexpressions
 	 *  @param	idlScope	Information about the surrounding scope
 	 *  @param	tRef		Next TxtToken, unread() and unget() buffer
-	 *                      are used to unread long operators (´>>´)!
+	 *                      are used to unread long operators (Â´>>Â´)!
 	 *  @param	idlRd		TxtTokenReader
 	 *	@param	prevPrior
 	 *  @return				Result value and maybe two unread and unget tokens
