@@ -17,7 +17,7 @@ jobs:
         ls -al
         echo start make
         echo
-        make IDL2VB
-        ls -al
+        make IDL2VB.jar
+        ls -al mboth/idl2vb
         echo Add other actions to build,
         echo test, and deploy your project.
