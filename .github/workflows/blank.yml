@@ -17,7 +17,7 @@ jobs:
         ls -al
         echo start make
         echo
-        make
+        make IDL2VB
         ls -al
         echo Add other actions to build,
         echo test, and deploy your project.
