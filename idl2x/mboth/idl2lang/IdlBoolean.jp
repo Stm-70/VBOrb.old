@@ -9,7 +9,7 @@
    This library is distributed in the hope that it will be useful,
    but WITHOUT ANY WARRANTY; without even the implied warranty of
    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-   Library General Public License for more details.
+   Library General Public License for more details. 
 */
 #if !defined JP_PACKAGE
 #define JP_PACKAGE mboth.idl2lang
@@ -115,7 +115,7 @@ public class IdlBoolean extends IdlIdentifier implements IdlSwitchType
 	 *
 	 *  @param	idlScope	Information about the surrounding scope
 	 *  @param	tRef		Next TxtToken, unread() is not allowed because
-	 *						it is maybe already used to unread ´>>´ operator!
+	 *						it is maybe already used to unread Â´>>Â´ operator!
 	 *  @param	idlRd		TxtTokenReader
 	 *  @return				Result value
 	 *
@@ -140,7 +140,7 @@ public class IdlBoolean extends IdlIdentifier implements IdlSwitchType
 	 *
 	 *  @param	idlScope	Information about the surrounding scope
 	 *  @param	tRef		Next TxtToken, unread() is not allowed because
-	 *						it is maybe already used to unread ´>>´ operator!
+	 *						it is maybe already used to unread Â´>>Â´ operator!
 	 *  @param	idlRd		TxtTokenReader
 	 *	@param	prevPrior
 	 *  @return				Result value
