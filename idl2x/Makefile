@@ -247,10 +247,6 @@ classes:	mboth/idl2vb/IDL2VB.class
 	cp -R ./free ./classes
 
 IDL2VB.jar:
-	{\
-	find gnu -name "*?.?*" | \
-		xargs jar -cvmf ./mboth/idl2vb/manifest.txt ../bin/IDL2VB.jar ; \
-	find mboth/idl2vb mboth/util -name "*.class" | \
-		xargs jar uvf ../bin/IDL2VB.jar ; \
-        }
+	./make-jar.sh
+	
         
